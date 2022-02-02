@@ -22,18 +22,19 @@
 
       gtag('config', 'G-RT3S130XS8');
     </script>
+    <script>
+      window.onload = () => document.getElementById("copyright").innerText = `Coming soon. Copyright 2018-${new Date().getFullYear()}.`
+    </script>
   </head>
   <body class="tk-proxima-nova">
     <div class="wrapper">
       <div class="hero">
-        <!-- <div class="avatar" style="background-image: url(marcbetts.jpg)"></div> -->
         <div class="avatar" ></div>
         <div class="biography">Welcome to the online home of Wyatt Betts</div>
-      </div>
-      
+      </div>   
       </div>
 
-      <p class="h5">Coming soon. Copyright 2018-2020.</p>
+      <p class="hi5" id="copyright"></p>
     </div>
     <script>
       (function (i, s, o, g, r, a, m) {
